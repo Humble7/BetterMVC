@@ -14,6 +14,7 @@
 		825F65BC22D4A0E200F8AD3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825F65BA22D4A0E200F8AD3A /* LaunchScreen.storyboard */; };
 		825F65C722D4A0E200F8AD3A /* TransitViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F65C622D4A0E200F8AD3A /* TransitViewControllerTests.swift */; };
 		825F65D222D4A0E200F8AD3A /* TransitViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F65D122D4A0E200F8AD3A /* TransitViewControllerUITests.swift */; };
+		825F65E122D4A53100F8AD3A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F65E022D4A53100F8AD3A /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		825F65CD22D4A0E200F8AD3A /* TransitViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		825F65D122D4A0E200F8AD3A /* TransitViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitViewControllerUITests.swift; sourceTree = "<group>"; };
 		825F65D322D4A0E200F8AD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		825F65E022D4A53100F8AD3A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		825F65AE22D4A0DF00F8AD3A /* TransitViewController */ = {
 			isa = PBXGroup;
 			children = (
+				825F65DF22D4A4D300F8AD3A /* Extensions */,
 				825F65AF22D4A0DF00F8AD3A /* AppDelegate.swift */,
 				825F65B322D4A0DF00F8AD3A /* ViewController.swift */,
 				825F65B522D4A0DF00F8AD3A /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				825F65D322D4A0E200F8AD3A /* Info.plist */,
 			);
 			path = TransitViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		825F65DF22D4A4D300F8AD3A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				825F65E022D4A53100F8AD3A /* UIView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				825F65B422D4A0DF00F8AD3A /* ViewController.swift in Sources */,
+				825F65E122D4A53100F8AD3A /* UIView.swift in Sources */,
 				825F65B022D4A0DF00F8AD3A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
