@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		825F65B022D4A0DF00F8AD3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F65AF22D4A0DF00F8AD3A /* AppDelegate.swift */; };
-		825F65B422D4A0DF00F8AD3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F65B322D4A0DF00F8AD3A /* ViewController.swift */; };
-		825F65B722D4A0DF00F8AD3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825F65B522D4A0DF00F8AD3A /* Main.storyboard */; };
 		825F65B922D4A0E200F8AD3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825F65B822D4A0E200F8AD3A /* Assets.xcassets */; };
 		825F65BC22D4A0E200F8AD3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825F65BA22D4A0E200F8AD3A /* LaunchScreen.storyboard */; };
 		825F65C722D4A0E200F8AD3A /* TransitViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F65C622D4A0E200F8AD3A /* TransitViewControllerTests.swift */; };
@@ -17,6 +15,9 @@
 		825F65E122D4A53100F8AD3A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F65E022D4A53100F8AD3A /* UIView.swift */; };
 		825F65E322D4B43C00F8AD3A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F65E222D4B43B00F8AD3A /* UIViewController.swift */; };
 		825F65E622D5EA4400F8AD3A /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F65E522D5EA4400F8AD3A /* ContainerViewController.swift */; };
+		825F65EA22D60AD800F8AD3A /* CoordinatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F65E922D60AD800F8AD3A /* CoordinatorViewController.swift */; };
+		825F65EC22D60B5600F8AD3A /* CoordinatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 825F65EB22D60B5600F8AD3A /* CoordinatorViewController.xib */; };
+		825F65EE22D61E0300F8AD3A /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F65ED22D61E0300F8AD3A /* ColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 /* Begin PBXFileReference section */
 		825F65AC22D4A0DF00F8AD3A /* TransitViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		825F65AF22D4A0DF00F8AD3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		825F65B322D4A0DF00F8AD3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		825F65B622D4A0DF00F8AD3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		825F65B822D4A0E200F8AD3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		825F65BB22D4A0E200F8AD3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		825F65BD22D4A0E200F8AD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +52,9 @@
 		825F65E022D4A53100F8AD3A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		825F65E222D4B43B00F8AD3A /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		825F65E522D5EA4400F8AD3A /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		825F65E922D60AD800F8AD3A /* CoordinatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorViewController.swift; sourceTree = "<group>"; };
+		825F65EB22D60B5600F8AD3A /* CoordinatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoordinatorViewController.xib; sourceTree = "<group>"; };
+		825F65ED22D61E0300F8AD3A /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +108,9 @@
 				825F65E422D5EA1500F8AD3A /* Common View Controllers */,
 				825F65DF22D4A4D300F8AD3A /* Extensions */,
 				825F65AF22D4A0DF00F8AD3A /* AppDelegate.swift */,
-				825F65B322D4A0DF00F8AD3A /* ViewController.swift */,
-				825F65B522D4A0DF00F8AD3A /* Main.storyboard */,
+				825F65ED22D61E0300F8AD3A /* ColorViewController.swift */,
+				825F65E922D60AD800F8AD3A /* CoordinatorViewController.swift */,
+				825F65EB22D60B5600F8AD3A /* CoordinatorViewController.xib */,
 				825F65B822D4A0E200F8AD3A /* Assets.xcassets */,
 				825F65BA22D4A0E200F8AD3A /* LaunchScreen.storyboard */,
 				825F65BD22D4A0E200F8AD3A /* Info.plist */,
@@ -255,8 +258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				825F65BC22D4A0E200F8AD3A /* LaunchScreen.storyboard in Resources */,
+				825F65EC22D60B5600F8AD3A /* CoordinatorViewController.xib in Resources */,
 				825F65B922D4A0E200F8AD3A /* Assets.xcassets in Resources */,
-				825F65B722D4A0DF00F8AD3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,9 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				825F65B422D4A0DF00F8AD3A /* ViewController.swift in Sources */,
 				825F65E122D4A53100F8AD3A /* UIView.swift in Sources */,
 				825F65E622D5EA4400F8AD3A /* ContainerViewController.swift in Sources */,
+				825F65EA22D60AD800F8AD3A /* CoordinatorViewController.swift in Sources */,
+				825F65EE22D61E0300F8AD3A /* ColorViewController.swift in Sources */,
 				825F65E322D4B43C00F8AD3A /* UIViewController.swift in Sources */,
 				825F65B022D4A0DF00F8AD3A /* AppDelegate.swift in Sources */,
 			);
@@ -321,14 +325,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		825F65B522D4A0DF00F8AD3A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				825F65B622D4A0DF00F8AD3A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		825F65BA22D4A0E200F8AD3A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
