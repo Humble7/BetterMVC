@@ -15,6 +15,7 @@
 		825F669B22D737C000F8AD3A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F669922D737C000F8AD3A /* UIView.swift */; };
 		825F669C22D737C000F8AD3A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F669A22D737C000F8AD3A /* UIViewController.swift */; };
 		825F669E22D738FF00F8AD3A /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F669D22D738FF00F8AD3A /* Identifier.swift */; };
+		825F66A022D73F0B00F8AD3A /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825F669F22D73F0B00F8AD3A /* UIWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		825F669922D737C000F8AD3A /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		825F669A22D737C000F8AD3A /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		825F669D22D738FF00F8AD3A /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		825F669F22D73F0B00F8AD3A /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				825F669922D737C000F8AD3A /* UIView.swift */,
 				825F669A22D737C000F8AD3A /* UIViewController.swift */,
 				825F669D22D738FF00F8AD3A /* Identifier.swift */,
+				825F669F22D73F0B00F8AD3A /* UIWindow.swift */,
 			);
 			name = Extension;
 			path = ../../Extension;
@@ -269,6 +272,7 @@
 			files = (
 				825F669B22D737C000F8AD3A /* UIView.swift in Sources */,
 				825F669C22D737C000F8AD3A /* UIViewController.swift in Sources */,
+				825F66A022D73F0B00F8AD3A /* UIWindow.swift in Sources */,
 				825F669E22D738FF00F8AD3A /* Identifier.swift in Sources */,
 				825F661D22D6A7D500F8AD3A /* AppDelegate.swift in Sources */,
 			);
